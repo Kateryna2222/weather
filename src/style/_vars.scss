@@ -1,0 +1,40 @@
+$main: #4793FF;
+$light: #fff;
+$dark: #000;
+$dark-bg: #0D1117;
+$secondary1: #4F4F4F;
+$secondary2: #2E3035;
+$secondary2-light: rgba(71, 147, 255, 0.2);
+$secondary3: #4793FF33;
+$secondary4: #939CB0;
+
+$shadow-light: 0 0 15px rgba(54, 83, 228, 0.28);
+$shadow-dark: 0 0 15px rgba(196, 174, 174, 0.3);
+
+
+:root{
+    --body-background-dark: #{$dark-bg};
+    --body-background-light: #{$light};
+    --body-background-default: var(#{--body-background-dark});
+
+    --component-background-dark: #{$secondary1};
+    --component-background-light: #{$light};
+    --component-background-default: var(#{--component-background-dark});
+
+    --cart-background-dark: #{$secondary2};
+    --cart-background-light: #{$secondary2-light};
+    --cart-background-default: var(#{--cart-background-dark});
+    
+    --text-color-dark: #{$light};
+    --text-color-light: #{$dark};
+    --text-color-default: var(#{--text-color-dark});
+
+    --shadow-color-dark: #{$shadow-dark};
+    --shadow-color-light: #{$shadow-light};
+    --shadow-color-default: var(#{--shadow-color-dark});
+}
+
+
+
+
+

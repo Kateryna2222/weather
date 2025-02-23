@@ -1,0 +1,51 @@
+@use '../../style/vars' as *;
+
+
+.today{
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: var(#{--component-background-default});
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: var(#{--shadow-color-default});
+    min-height: 290px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+
+    span{
+        display: block;
+        padding-top: 15px;
+        font-size: 40px;
+    }
+}
+
+.img{
+    padding-top: 15px;
+    width: 119px;
+    height: 119px;
+}
+
+.temperature{
+    font-size: 96px;
+    color: $main;
+    font-weight: 500;
+}
+
+.bottom{
+    padding-top: 20px;
+    color: $secondary4;
+    font-size: 25px;
+    letter-spacing: 1.5px;
+
+    .time{
+        padding-top: 15px;
+
+        span{
+            padding-left: 15px;
+        }
+    }
+}

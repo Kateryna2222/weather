@@ -1,0 +1,48 @@
+@use '../../style/vars' as *;
+
+.info{
+    background: url(../../images/clouds.png) no-repeat right top;
+    width: 100%;
+    padding: 20px 20px 20px 35px;
+    background-color: var(#{--component-background-default});
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-shadow: var(#{--shadow-color-default});
+    min-height: 290px;
+
+    &_list{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        li{
+            display: flex;
+            align-items: center;
+
+            .item_title{
+                color: $secondary4;
+                padding-left: 20px;
+            }
+
+            .img{
+                background-color: #fff;
+                height: 38px;
+                width: 38px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+            }
+        }
+    }
+
+    .item_info{
+        display: flex;
+        flex-direction: column;
+        gap: 47px;
+        padding-left: 20px;
+    }
+}

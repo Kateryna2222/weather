@@ -1,0 +1,36 @@
+@use '../../style/vars' as *;
+
+.header {
+    padding: 20px 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.header, .about, .functions{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.functions{
+  svg{
+    cursor: pointer;
+  }
+}
+
+.title {
+  color: $main;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.select{
+  background-color: var(#{--cart-background-default});
+  border-radius: 10px;
+  color: var(#{--text-color-default});
+  font-size: 16px;
+}
+
+
