@@ -10,11 +10,21 @@
     overflow: hidden;
     box-shadow: var(#{--shadow-color-default});
     min-height: 290px;
+
+    @media screen and (max-width: 850px) {
+        max-width: 100%;
+    }
 }
 
 .top{
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: 530px) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
 
     span{
         display: block;
@@ -40,6 +50,10 @@
     color: $secondary4;
     font-size: 25px;
     letter-spacing: 1.5px;
+
+    @media screen and (max-width: 530px) {
+        text-align: center;
+    }
 
     .time{
         padding-top: 15px;

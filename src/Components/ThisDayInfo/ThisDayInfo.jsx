@@ -18,7 +18,7 @@ const ThisDayInfo = ({item}) => {
     return (
         <div className={style.info}>
             <ul className={style.info_list}>
-            <li className={style.temperature}>
+                <li className={style.temperature}>
                     <div className={style.img}>
                         <img src={temperatureIcin} alt="icon" />
                     </div>
